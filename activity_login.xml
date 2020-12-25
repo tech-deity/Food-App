@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".LoginActivity"
+    android:background="#FFFFFF"
+    >
+
+    <TextView
+
+        android:text="Welcome to"
+        android:textSize="20sp"
+        android:textColor="#212323"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="@string/app_name"
+        android:textSize="34sp"
+        android:layout_marginTop="4dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="LOGIN TO YOUR ACCOUNT"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        />
+    <EditText
+    android:id="@+id/LoginID"
+    android:hint="Enter Email Id"
+    android:padding="4dp"
+    android:background="@drawable/shape"
+    android:textColorHint="#474747"
+    android:textColor="@color/black"
+    android:inputType="textPassword"
+    android:layout_marginTop="14dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    />
+    <EditText
+        android:id="@+id/login_pass"
+        android:hint="Enter Password"
+        android:padding="4dp"
+        android:background="@drawable/shape"
+        android:textColorHint="#474747"
+        android:textColor="@color/black"
+        android:inputType="textPassword"
+        android:layout_marginTop="14dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/Forget_password"
+        android:text="Forget Password"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+         android:text="LOGIN"
+         android:layout_marginTop="8dp"
+         android:background="@drawable/rectangle"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"/>
+    <View
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black" />
+    <TextView
+        android:text="Continue With Social Accounts"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        />
+
+    <Button
+        android:text="FACEBOOK"
+        android:background="@drawable/shape"
+        android:layout_marginTop="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:text="GOOGLE"
+        android:background="@drawable/shape"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+
+        android:text="Dont have an Account ? create One"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        />
+
+
+
+
+</LinearLayout>
